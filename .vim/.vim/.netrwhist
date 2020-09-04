@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/eevee/Git/Fuzion/.git'
+let g:netrw_dirhist_7='/home/eevee/Git/Fuzion'
+let g:netrw_dirhist_6='/home/eevee/Git/ark/.git'
+let g:netrw_dirhist_5='/home/eevee/Git/dotfile-autoconfig'
+let g:netrw_dirhist_4='/home/eevee/Git'
+let g:netrw_dirhist_3='/home/eevee/Scripts'
+let g:netrw_dirhist_2='/home/eevee/.vim'
+let g:netrw_dirhist_1='/home/eevee/.config/qtile'

@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/eevee/Creations/code/kaggle/birds'
+let g:netrw_dirhist_6='/home/eevee/Git/global-tennis-pros'
+let g:netrw_dirhist_5='/home/eevee/Git/libertytax/config'
+let g:netrw_dirhist_4='/home/eevee/Git/libertytax'
+let g:netrw_dirhist_3='/home/eevee/Git/global-tennis-pros/config'
+let g:netrw_dirhist_2='/home/eevee/Git/libertytax/config'
+let g:netrw_dirhist_1='/home/eevee/Git/libertytax'
+let g:netrw_dirhist_0='/home/eevee/Git/libertytax/config'
+let g:netrw_dirhist_9='/home/eevee/Git/libertytax'
+let g:netrw_dirhist_8='/home/eevee/Git/libertytax/api/controllers'
