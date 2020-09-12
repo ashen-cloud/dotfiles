@@ -12,8 +12,6 @@ set timeoutlen=500
 set ttimeoutlen=50
 set ruler
 set numberwidth=5
-set tabstop=2
-set shiftwidth=2
 set smarttab
 set expandtab
 set laststatus=2
@@ -26,9 +24,9 @@ set undofile
 set undodir=~/.vim/undodir
 set encoding=utf-8
 
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 
 source ~/.config/nvim/coc-config.nvim
 
@@ -50,9 +48,9 @@ nnoremap <C-c> m`A,<esc>``
 let g:ycm_path_to_python_interpreter = '/usr/bin/python'
 
 call plug#begin('~/.vim/plugged')
+  Plug 'haishanh/night-owl.vim'
   Plug 'vim-scripts/bufpos'
   Plug 'zivyangll/git-blame.vim'
-  Plug 'haishanh/night-owl.vim'
   Plug 'dpc/vim-smarttabs'
   Plug 'wadackel/vim-dogrun'
   Plug 'ryanoasis/vim-devicons'
@@ -77,7 +75,6 @@ call plug#begin('~/.vim/plugged')
   Plug 'mhinz/vim-startify'
   Plug 'jremmen/vim-ripgrep'
   Plug 'arcticicestudio/nord-vim'
-  " Plug 'vim-syntastic/syntastic'
   Plug 'dense-analysis/ale'
   Plug 'leafgarland/typescript-vim'
   Plug 'vim-python/python-syntax'
@@ -91,7 +88,6 @@ call plug#begin('~/.vim/plugged')
   Plug 'mattn/emmet-vim'
   Plug 'ChristianChiarulli/codi.vim'
   Plug 'SirVer/ultisnips'
-  Plug 'altercation/vim-colors-solarized'
 call plug#end()
 
 highlight ALEError ctermbg=none cterm=underline
@@ -123,7 +119,7 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
-colorscheme dogrun
+colorscheme night-owl
 hi Normal ctermbg=none
 highlight NonText ctermbg=none
 
